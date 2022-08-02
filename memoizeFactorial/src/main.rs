@@ -1,5 +1,7 @@
-//is this even memoization? i don't think so
-//it is working!
+/*
+is this even memoization? i don't think so
+it is working!
+*/
 
 use std::time::Instant;
 
