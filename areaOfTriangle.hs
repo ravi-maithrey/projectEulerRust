@@ -3,7 +3,7 @@ module Main where
 main::IO()
 main = do
     putStrLn "Base of triangle"
-    base <- read getLine
+    base <- readLn :: IO Double
     putStrLn "Height of triangle"
-    height <- read getLine
-    putStrLn ("Area of triangle is" ++ show $ 0.5*base*height)
+    height <- readLn :: IO Double
+    putStrLn ("Area of triangle is" ++ show  (base*height/2))
